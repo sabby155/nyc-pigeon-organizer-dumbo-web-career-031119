@@ -6,7 +6,7 @@
         v.collect do |names|
             pigeon_list[names] ||= {}
             pigeon_list[names][key] ||= []
-            pigeon_list[names][key] << k
+            pigeon_list[names][key] << k.to_s
         end
       end
    end
