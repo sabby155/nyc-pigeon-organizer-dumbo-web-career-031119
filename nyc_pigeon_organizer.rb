@@ -1,4 +1,4 @@
-def nyc_pigeon_organizer(data)
+
   def nyc_pigeon_organizer(data)
   pigeon_list = {}
     data.collect do |key, value| #key are categories :color and value are cat-data
@@ -11,5 +11,4 @@ def nyc_pigeon_organizer(data)
       end
    end
    pigeon_list
-end
 end
